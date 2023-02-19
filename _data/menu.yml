@@ -1,0 +1,35 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: profiles
+    entries:
+      - title: GitHub
+        url: https://github.com/Ellsworth
+      - title: LinkedIn
+        url: https://www.linkedin.com/in/erich-ellsworth-a78a39227/
+      - title: Mastodon (soon?)
+
+  - title: links
+    entries:
+      - title: Grafana
+        url: https://grafana.kg5key.com
+      - title: High-Performance Engineering Lab @ Texas State University
+        url: https://hipe.wp.txstate.edu/
+
+  - title: all posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  - title: posts by category
+    post_list:
+      category: docker
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: example2-archive.html
+
+  - title: rss
+    url: feed.xml
